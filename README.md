@@ -1,51 +1,60 @@
-# Welcome to your Expo app 👋
+# Créer un champ de saisie et un écran de connexion avec TextInput
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Objectifs
+À la fin de ce TP, l’étudiant :
+configure un composant TextInput pour saisir du texte ;
+stocke ce texte dans l’état local avec useState ;
+utilise des props de TextInput :
+placeholder
+keyboardType
+secureTextEntry
+applique un style simple pour obtenir une interface propre.
+Le TP se déroule en deux parties :
+Un écran d’accueil avec un champ “First Name”.
+Un écran de connexion avec email et mot de passe.
 
-## Get started
+---
 
-1. Install dependencies
+## Pré-requis
+Projet React Native déjà créé (Expo ou React Native CLI).
+Notions de base :
+composants fonctionnels
+hooks React (useState)
+StyleSheet et styles basiques.
+On suppose qu’il existe déjà :
+un composant AppHeader ;
+un composant AppFooter .
+Les noms peuvent être adaptés au projet réel.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## Structure du projet
 
-   ```bash
-   npx expo start
-   ```
+<img width="494" height="755" alt="image" src="https://github.com/user-attachments/assets/64aee98b-50ad-4e5f-b096-287627d351f8" />
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Resultat
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Champs : Nom
 
-## Get a fresh project
+<img width="1851" height="964" alt="image" src="https://github.com/user-attachments/assets/a1d2b3bd-2763-447e-aa16-b66d27ee6e1b" />
 
-When you're ready, run:
+### Champs : Email et Mot de pass
 
-```bash
-npm run reset-project
-```
+<img width="1857" height="999" alt="image" src="https://github.com/user-attachments/assets/71e25ea7-fca4-4d90-a0c3-36a6a1657b34" />
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## Auteur
 
-To learn more about developing your project with Expo, look at the following resources:
+**Nom :** JARDI Siham
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+**Cours :**  React Native
 
-## Join the community
+**Date :** Janvier 2026
 
-Join our community of developers creating universal apps.
+**Encadré par :** Pr.Mohamed LACHGHAR
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-"# React-native-myApp" 
+
+---
