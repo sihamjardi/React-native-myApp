@@ -54,7 +54,7 @@ Les noms peuvent être adaptés au projet réel.
 
 **Date :** Janvier 2026
 
-**Encadré par :** Pr.Mohamed LACHGHAR
+**Encadré par :** Pr.Mohamed LACHGAR
 
 
 ---
